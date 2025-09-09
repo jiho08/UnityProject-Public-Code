@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:FloatField label="Max Duration" value="2" name="MaxDuration" binding-path="maxDuration" />
+    <engine:IntegerField label="Max Targets" value="25" name="MaxTargets" binding-path="maxTargets" />
+    <engine:Slider label="Time Multiplier" value="0.5" high-value="1" name="TimeMultiplier" binding-path="timeMultiplier" fill="false" show-input-field="true" />
+    <engine:IntegerField label="Max Skill Energy" value="2" binding-path="maxSkillEnergy" name="MaxSkillEnergy" />
+    <editor:ColorField label="Full Energy Color" value="#D5AB1EFF" name="EnergyColor" binding-path="fullEnergyColor" />
+    <editor:ColorField label="Energy Color" value="#D5AB1EFF" name="RemainingEnergyColor" binding-path="energyColor" />
+    <engine:DropdownField label="Class name" binding-path="showdownClassName" name="ClassDropDownField" />
+</engine:UXML>
